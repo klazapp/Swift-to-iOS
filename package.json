@@ -1,0 +1,13 @@
+{
+  "name": "com.klazapp.swifttoios",
+  "displayName": "Klazapp Swift to iOS",
+  "version": "1.0.0",
+  "unity": "2020.3",
+  "description": "This tool helps to set up the bridging connection to use Call functions like UnitySendMessage from within swift",
+  "keywords": [
+    "config",
+    "file",
+    "data"
+  ],
+  "category": "Utility"
+}
