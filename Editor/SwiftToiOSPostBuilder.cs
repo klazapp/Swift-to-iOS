@@ -58,7 +58,6 @@ public static class SwiftToiOSPostBuilder
         //Check for existing module map file and copy if necessary
         if (!File.Exists(moduleFilePath))
         {
-            //"Assets/4.ThirdParties/Klazapp/Source/UnityFramework.modulemap"
             FileUtil.CopyFileOrDirectory(MODULE_MAP_FILE_PATH, moduleFilePath);
             project.AddFile(moduleFilePath, MODULE_MAP_FRAMEWORK_PATH);
             project.AddBuildProperty(unityFrameworkGuid, MODULE_MAP_FILE_NAME, MODULE_MAP_ROOT_PATH);
